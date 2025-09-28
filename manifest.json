@@ -1,21 +1,32 @@
 {
-  "name": "Meu PWA",
-  "short_name": "PWA",
-  "description": "Um PWA simples do zero",
-  "start_url": ".",
+  "name": "Meu Teste PWA",
+  "short_name": "TestePWA",
+  "description": "Um PWA de teste com manifest completo.",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#4CAF50",
+  "theme_color": "#0078D7",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "icon-512.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "platform": "web"
     }
   ]
 }
